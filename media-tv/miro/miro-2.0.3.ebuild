@@ -35,7 +35,6 @@ S="${WORKDIR}/${MY_P}/platform/gtk-x11"
 
 src_prepare() {
 	cd "${WORKDIR}/${MY_P}"
-	#epatch "${FILESDIR}/${PN}-gcc.4.3.patch"
 
 	# Generate MozillaBrowser.c first, for patching
 	# FIXME: A proper patch to the pyrex source would be better
